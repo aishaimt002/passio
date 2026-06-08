@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <Title>Visitor Pass</Title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+          <image class="logo" src="../checkin/assets/my-images/logo.png" alt="logo" />
+            <div class="my-content">
+                <p class="heading">Visitor Check in</p>
+                <p class="subheading">Your information is used only to issue you Visitor pass</p>
+            </div>
+        <form class="VisitorForm">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" placeholder="Ayesha Imtiaz" class="input"><br><br>
+
+            <label type="number" name="Phone number">Phone Number</label>
+            <input type="number" name="number" placeholder="+92 000 0000" class="input"><br><br>
+
+            <label type="email" name="email">Email Address</label>
+            <input type="email" name="email" placeholder="email@gmail.com" class="input"><br><br>
+
+            <label type="text" name="text">Whom to meet</label>
+            <input type="text" name="text" placeholder="Zamran Ahmad" class="input"><br><br>
+
+            <label type="text" name="text">Purpose</label>
+            <textarea id="purpose" name="comment" row="4" cols="50" placeholder="Interview"></textarea>
+
+            <p class="cnic">Select file to upload front and back side of your CNIC</p>
+            <label>Front side CNIC</label>
+            <input type="file" value="fileToUploadNep">
+
+             <label>Back side CNIC</label>
+            <input type="file" value="fileToUploadNep">
+
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+</body>
